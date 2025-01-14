@@ -390,7 +390,7 @@ def fhirized(thing, htan_type) -> list[dict]:
         research_subject = {
             'resourceType': "ResearchSubject",
             'id': _to_id(thing['bts:HTANParticipantID'] + '-HTA9'),
-            'individual': {
+            'subject': {
                 'reference': f"Patient/{_to_id(thing['bts:HTANParticipantID'])}"
             },
             'status': "candidate",

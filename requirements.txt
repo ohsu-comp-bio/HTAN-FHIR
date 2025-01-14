@@ -2,3 +2,5 @@ graphviz
 PyYAML
 click
 inflection
+gen3_tracker>=0.0.7rc4
+
