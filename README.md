@@ -21,3 +21,5 @@ $ g3t meta validate
 {'summary': {'DocumentReference': 94880, 'Specimen': 300, 'ResearchStudy': 1, 'Task': 94880, 'ResearchSubject': 21, 'Patient': 21}}
 $ g3t meta graph
 ```
+
+![image](https://github.com/user-attachments/assets/4caa466b-89d0-47d3-a85c-13fc3be8e3b8)
